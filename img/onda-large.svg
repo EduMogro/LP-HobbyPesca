@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Onda" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 200" style="enable-background:new 0 0 1920 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#C8CCCC;}
+</style>
+<path id="Fondo" class="st0" d="M-0.5,98.5"/>
+<path id="Blanco" class="st1" d="M1919.5,98.5C1631.85,9.18,1402.28,5.81,1244,20C930.16,48.14,762.91,157.31,406.5,152.5
+	c-173.14-2.34-314.57-30.54-407-54c0,33.67,0,67.33,0,101h1920V98.5z"/>
+<path id="Gris" class="st2" d="M0,81c79.53,21.4,215.2,51.97,385,58C825.2,154.64,1026.52-11.25,1453,0
+	c104.21,2.75,266.27,17.24,466,81c0.33,12.92,0.67,25.85,1,38.77C1613.72,12.12,1370.68,7.83,1201,26
+	C912.19,56.93,742.21,162.97,385,162c-162.3-0.44-295.81-22.79-385-42.23C0,106.85,0,93.92,0,81z"/>
+</svg>

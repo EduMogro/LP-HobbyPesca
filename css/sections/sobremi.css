@@ -1,0 +1,57 @@
+.sobremi {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secundary) 100%), url("../../img/header-bg.jpg") center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.sobremi::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    height: 4.7rem;
+    background: url(../../img/onda-large.svg) center no-repeat;
+    /* -moz-o-webkit */
+    transform: scaleY(-1);
+    /* -ms-filter: "FlipV"; */
+    filter: FlipV;
+    background-size: cover;
+}
+
+.sobremi-content {
+    width: 100%;
+    color: #FAFAFA;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sobremi-text-box {
+    padding: 0 1.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.sobremi-text-box i {
+    position: absolute;
+    top: -8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8rem;
+    color: var(--color-primary-2);
+    opacity: .5;
+    z-index: -1;
+}
+
+.sobremi-costumer img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    border: 3px solid var(--color-primary-2);
+}
+

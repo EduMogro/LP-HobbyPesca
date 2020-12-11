@@ -1,0 +1,67 @@
+.hero {
+    width: 100%;
+    height: 95vh;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secundary) 100%), url("../../img/header.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 4.7rem;
+    background: url(../../img/onda-large.svg) center no-repeat;
+    background-size: cover;
+}
+
+.hero .main-message {
+    width: 100%;
+    max-width: 50rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    transform: translateY(20%);
+    padding-top: 55px;
+}
+
+.hero .main-message h3 {
+    font-size: 1.6rem;
+}
+
+.hero .main-message h1 {
+    font-family: 'ALdrich', sans-serif;
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+
+.hero .main-message p {
+    text-transform: initial;
+}
+
+.hero .btn {
+    font-size: 1.3rem;
+    background-color: var(--color-primary-2);
+    border-radius: 2rem;
+    color: #FAFAFA;
+    display: inline-block;
+    margin-top: 5rem;
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    transition: background-color 650ms;
+}
+
+.hero .btn:hover {
+    background-color: var(--color-secundary-2);
+}
+
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        height: 95vh;
+    }
+    .hero::before {
+        height: 22vh;
+    }
+}
